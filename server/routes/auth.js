@@ -6,7 +6,8 @@ const bcrypt = require("bcryptjs");
 const fetchuser = require("../middleware/fetchuser");
 const jwt = require("jsonwebtoken");
 
-const JWT_SECRET = process.env.JWT_SECRET;
+// const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = "secret$key";
 
 // ROUTE 1 : Create a User using: POST "/api/auth/createuser". No login required
 router.post(
