@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
-require("dotenv").config();
+// require("dotenv").config();
 
-const DB = process.env.DB_URL;
+// const DB = process.env.DB_URL;
+const DB =
+  "mongodb+srv://abhishek:Abhishek12345@cluster0.7e7onyj.mongodb.net/iBook?retryWrites=true&w=majority";
 
 mongoose
   .connect(DB, {
