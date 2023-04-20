@@ -34,6 +34,7 @@ const AddNote = () => {
             Title
           </label>
           <input
+            autoComplete="off"
             type="text"
             className="form-control"
             id="title"
@@ -50,6 +51,7 @@ const AddNote = () => {
             Description
           </label>
           <input
+            autoComplete="off"
             type="text"
             className="form-control"
             id="desc"
@@ -65,6 +67,7 @@ const AddNote = () => {
             Tag
           </label>
           <input
+            autoComplete="off"
             type="text"
             className="form-control"
             id="tag"

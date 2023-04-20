@@ -39,6 +39,7 @@ const Login = () => {
             Email address
           </label>
           <input
+            autoComplete="off"
             type="email"
             className="form-control"
             id="email"
